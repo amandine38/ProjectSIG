@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Les Institutions</title>
+        <title>Les Services</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -61,7 +61,7 @@
         <div class="container-fluid nav-bar p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-5 text-secondary m-0"><img src="img/armoirie.png" class="img-fluid" alt=""></h1>
+                    <h1 class="display-6 text-secondary m-0"><img src="img/armoirie.png" class="img-fluid" alt="">Services&ONG</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -70,8 +70,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Acceuil</a>
-                        <a href="institution.html" class="nav-item nav-link active">Institutions</a>
-                        <a href="ong.html" class="nav-item nav-link">ONGs</a>
+                        <a href="centre.html" class="nav-item nav-link active">Centre</a>
+                        <a href="ong.html" class="nav-item nav-link">ONG</a>
                         
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
@@ -81,7 +81,7 @@
         
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">La localisation des Institutions</h1>  
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">La localisation des Services Du Ministère</h1>  
             </div>
         </div>
         <!-- Header End -->
@@ -89,42 +89,35 @@
         <!-- centre Start -->
         
             
-                <h1>Les centres d'accueil au Burkina Faso</h1>
+                <h1>Les Services du Ministère de la Solidarité et de l'action Humanitaire</h1>
                     <div id="map"></div>
                 
                     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
                     <script src="js/centre.js"></script>
                     <script>
                         // Initialiser la carte centrée sur le Burkina Faso
-                        var map = L.map('map').setView([12.238333, -1.561593], 6);
-                    
+                        var map = L.map('map').setView([12.238333, -1.561593], 10);
+                
                         // Ajouter une couche de tuiles OpenStreetMap
                         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                             maxZoom: 18
                         }).addTo(map);
-                    
-                        // Définir une icône personnalisée pour les marqueurs
+
                         var customIcon = L.icon({
                             iconUrl: 'img/icone1.png', // Chemin vers l'image de ton marqueur
                             iconSize: [40, 40], // Taille de l'icône (ici, 40x40 pixels)
                             iconAnchor: [20, 40], // Point d'ancrage (ici, au centre en bas de l'icône)
                             popupAnchor: [0, -40] // Ouverture du popup juste au-dessus de l'icône
                         });
-                    
-                        // Parcourir les centres et les ajouter à la carte avec zoom lors du clic
+                
+                        // Parcourir les centres et les ajouter à la carte
                         centres.forEach(function(centre) {
-                            var marker = L.marker([centre.lat, centre.lng], { icon: customIcon })
+                            L.marker([centre.lat, centre.lng], { icon: customIcon })
                                 .addTo(map)
-                                .bindPopup("<b>" + "Nom: "+ centre.name + "</b><br>" + "Description: "+ centre.description + "<br>" + "Latitude: "+ centre.lat + "<br>" +  "Longitude: " +centre.lng+ "<br>"+ "Responable: "+ centre.responsable+ "<br>"+
-                                "Email: "+centre.email +"<br>" + "Telephone: "+ centre.telephone+ "<br>" + "Adresse: "+ centre.adresse+ "<br>"+
-                                "<a href='" + centre.website + "' target='_blank'>Voir le site web</a>");
-                    
-                            // Ajouter un événement de clic sur le marqueur pour zoomer
-                            marker.on('click', function() {
-                                map.setView([centre.lat, centre.lng], 12); // Zoom sur le centre avec un niveau de zoom de 12
-                            });
+                                .bindPopup("<b>" + centre.name + "</b><br>" + centre.description + "<br>" +
+                                         "<a href='" + centre.website + "' target='_blank'>Visiter le site web</a>");
                         });
-                    </script>
+                    </script>   
         </div>
         <!-- About End -->
 
