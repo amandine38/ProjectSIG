@@ -34,6 +34,20 @@
 <body>
     <style>
         #map { height: 500px; }
+        .leaflet-popup-content-wrapper {
+            background-color: #b2afea; 
+            border: 2px solid #8b787c; 
+            border-radius: 8px; 
+        }
+
+        .leaflet-popup-content {
+            color: #333; 
+            font-family: Arial, sans-serif; 
+        }
+
+        .leaflet-popup-tip {
+            background-color: #4CAF50; 
+        }
     </style>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -56,7 +70,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Acceuil</a>
-                    <a href="centre.html" class="nav-item nav-link">Centre</a>
+                    <a href="institution.html" class="nav-item nav-link">Institutions</a>
                     <a href="ong.html" class="nav-item nav-link active">ONG</a>
                     
                     <a href="#" class="nav-item nav-link">Contact</a>
@@ -98,8 +112,9 @@
                         ongs.forEach(function(ong) {
                             L.marker([ong.lat, ong.lng], { icon: customIcon })
                                 .addTo(map)
-                                .bindPopup("<b>" + ong.name + "</b><br>" + ong.description + "<br>" +
-                                         "<a href='" + ong.website + "' target='_blank'>Visiter le site web</a>");
+                                .bindPopup("<b>" + "Nom: "+ ong.name + "</b><br>" + "Description: "+ ong.description + "<br>" + "Latitude: "+ ong.lat + "<br>" +  "Longitude: " +ong.lng+ "<br>"+ "Responable: "+ ong.responsable+ "<br>"+
+                                "Email: "+ong.email +"<br>" + "Telephone: "+ ong.telephone+ "<br>" + "Adresse: "+ ong.adresse+ "<br>"+
+                                         "<a href='" + ong.website + "' target='_blank'>Voir le site web</a>");
                         });
                     </script>   
         </div>

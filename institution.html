@@ -70,8 +70,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Acceuil</a>
-                        <a href="centre.html" class="nav-item nav-link active">Centre</a>
-                        <a href="ong.html" class="nav-item nav-link">ONG</a>
+                        <a href="institution.html" class="nav-item nav-link active">Institutions</a>
+                        <a href="ong.html" class="nav-item nav-link">ONGs</a>
                         
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
@@ -114,8 +114,9 @@
                         centres.forEach(function(centre) {
                             L.marker([centre.lat, centre.lng], { icon: customIcon })
                                 .addTo(map)
-                                .bindPopup("<b>" + centre.name + "</b><br>" + centre.description + "<br>" +
-                                         "<a href='" + centre.website + "' target='_blank'>Visiter le site web</a>");
+                                .bindPopup("<b>" + "Nom: "+ centre.name + "</b><br>" + "Description: "+ centre.description + "<br>" + "Latitude: "+ centre.lat + "<br>" +  "Longitude: " +centre.lng+ "<br>"+ "Responable: "+ centre.responsable+ "<br>"+
+                                "Email: "+centre.email +"<br>" + "Telephone: "+ centre.telephone+ "<br>" + "Adresse: "+ centre.adresse+ "<br>"+
+                                         "<a href='" + centre.website + "' target='_blank'>Voir le site web</a>");
                         });
                     </script>   
         </div>
