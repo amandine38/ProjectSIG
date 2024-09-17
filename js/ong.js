@@ -303,3 +303,26 @@ var ongs = [
   }
   // Ajoutez plus de services et ONG ici...
 ];
+
+// Fonction pour mettre à jour les compteurs
+function updateCounters() {
+  var centresCount = centres.length; // Nombre de centres
+  var ongsCount = ongs.length; // Nombre d'ONG
+
+  // Met à jour le compteur des centres
+  $('#centres-counter').text(centresCount).counterUp({
+      delay: 10,
+      time: 1000
+  });
+
+  // Met à jour le compteur des ONG
+  $('#ongs-counter').text(ongsCount).counterUp({
+      delay: 10,
+      time: 1000
+  });
+}
+
+// Assurez-vous que le DOM est prêt avant d'exécuter le script
+$(document).ready(function() {
+  updateCounters();
+});

@@ -43,8 +43,8 @@
         <div class="container-fluid nav-bar p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-5 text-secondary m-0"><img src="img/armoirie.png" class="img-fluid" alt=""></h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <h3 class="display-5 text-secondary m-0"><img src="img/armoirie.png" class="img-fluid" alt="">MSAH</h3>
+                    <!-- <img src="img/armoirie.png" alt=""> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -86,12 +86,12 @@
                         <img src="img/map1.png" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
                             <div class="text-center p-4" style="max-width: 900px;">
-                                <h4 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Trouver vos la localisation des differentes</h4>
-                                <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Centre d'acceuil pour refugier</h1>
+                                <h4 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Trouver la localisation des differentes</h4>
+                                <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Institutions</h1>
                                 <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">Et
                                      
                                 </p>
-                                <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#">Plus de detail</a>
+                                <!-- <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#">Plus de detail</a> -->
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                                 <h5 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s"></h5>
                                 <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Des Organisations Non Gouvermentales</h1>
                                 <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">au Burkina </p>
-                                <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#">Plus de details</a>
+                                <!-- <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#">Plus de details</a> -->
                             </div>
                         </div>
                     </div>
@@ -132,8 +132,8 @@
                             <div class="counter-content">
                                 <h3>Nombre de Centre</h3>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="counter-value" data-toggle="counter-up">3</span>
-                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                    <span class="counter-value" id="centres-counter" data-toggle="counter-up">0</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;"></h4>
                                 </div>
                             </div>
                         </div>
@@ -146,8 +146,8 @@
                             <div class="counter-content">
                                 <h3>Nombre d'ONG</h3>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="counter-value" data-toggle="counter-up">2</span>
-                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                    <span class="counter-value" id="ongs-counter" data-toggle="counter-up">0</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;"></h4>
                                 </div>
                             </div>
                         </div>
@@ -194,10 +194,14 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+
     
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/ong.js"></script>
+    <script src="js/centre.js"></script>
     </body>
 
 </html>
