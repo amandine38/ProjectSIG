@@ -300,29 +300,60 @@ var ongs = [
     "email": "hope87bf@gmail.com",
     "telephone": "+226 25 34 37 42",
     "website": "www.hope87.at"
+  },
+// 12.35844253761826, -1.4908630683178192   12.345797920150122, -1.490311811820311
+  {
+    "name": "ONG ASMADE",
+    "lat": 12.345797920150122,  
+    "lng": -1.490311811820311,
+    "responsable": "TRAORET ABDARHAMANE",
+    "adresse": "09 BP 903 Ouagadougou OUAGA BF, Ouagadougou",
+    "email": "asmade@ongasmade.org",
+    "telephone": "(+226) 25 37 03 66",
+    "website": "http://www.ongasmade.org/"
   }
-  // Ajoutez plus de services et ONG ici...
+  
 ];
+
+// Initialisation pour les compteurs
+var initialUpdateDone = false; 
 
 // Fonction pour mettre à jour les compteurs
 function updateCounters() {
   var centresCount = centres.length; // Nombre de centres
   var ongsCount = ongs.length; // Nombre d'ONG
 
-  // Met à jour le compteur des centres
-  $('#centres-counter').text(centresCount).counterUp({
-      delay: 10,
-      time: 1000
-  });
+  if (!initialUpdateDone) {
+    // Animation des compteurs lors de la première exécution
+    $('#centres-counter').text(centresCount).counterUp({
+        delay: 10,
+        time: 1000
+    });
 
-  // Met à jour le compteur des ONG
-  $('#ongs-counter').text(ongsCount).counterUp({
-      delay: 10,
-      time: 1000
-  });
+    $('#ongs-counter').text(ongsCount).counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    initialUpdateDone = true; // Marquer comme initialisé
+  } else {
+    // Mise a jour 
+    $('#centres-counter').text(centresCount);
+    $('#ongs-counter').text(ongsCount);
+  }
 }
 
-// Assurez-vous que le DOM est prêt avant d'exécuter le script
 $(document).ready(function() {
   updateCounters();
+
+  // Supposons que vous vouliez mettre à jour les compteurs après 5 secondes (par exemple pour simuler un changement de données)
+  setTimeout(function() {
+    // Mettez à jour les données ici (par exemple, ajoutez de nouveaux centres ou ONG)
+    centres.push('New Centre');
+    ongs.push('New ONG');
+
+    // Appelez la fonction pour mettre à jour les compteurs
+    updateCounters();
+  }, 5000); // Mise à jour après 5 secondes
 });
+

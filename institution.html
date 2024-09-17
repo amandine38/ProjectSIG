@@ -35,8 +35,8 @@
         <style>
             #map { height: 500px; }
             .leaflet-popup-content-wrapper {
-                background-color: #b5b4cb; 
-                border: 2px solid #df1c4a; 
+                background-color: #90a7e6; 
+                border: 2px solid #171616; 
                 border-radius: 8px; 
             }
     
@@ -46,7 +46,7 @@
             }
     
             .leaflet-popup-tip {
-                background-color: #4CAF50; 
+                background-color: #1013c1; 
             }
         </style>
         <!-- Spinner Start -->
@@ -61,7 +61,7 @@
         <div class="container-fluid nav-bar p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-5 text-secondary m-0"><img src="img/armoirie.png" class="img-fluid" alt=""></h1>
+                    <h1 class="display-5 text-secondary m-0"><img src="img/armoirie.png" class="img-fluid" alt="">MSAHRNGF</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -72,8 +72,6 @@
                         <a href="index.html" class="nav-item nav-link">Acceuil</a>
                         <a href="institution.html" class="nav-item nav-link active">Institutions</a>
                         <a href="ong.html" class="nav-item nav-link">ONGs</a>
-                        
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -111,7 +109,7 @@
                             popupAnchor: [0, -40] // Ouverture du popup juste au-dessus de l'icône
                         });
                     
-                        // Parcourir les centres et les ajouter à la carte avec zoom lors du clic
+                        // Parcourir les institutions et les ajouter à la carte avec zoom lors du clic
                         centres.forEach(function(centre) {
                             var marker = L.marker([centre.lat, centre.lng], { icon: customIcon })
                                 .addTo(map)
@@ -121,7 +119,7 @@
                     
                             // Ajouter un événement de clic sur le marqueur pour zoomer
                             marker.on('click', function() {
-                                map.setView([centre.lat, centre.lng], 12); // Zoom sur le centre avec un niveau de zoom de 12
+                                map.setView([centre.lat, centre.lng], 12); // Zoom sur le institutions avec un niveau de zoom de 12
                             });
                         });
                     </script>
