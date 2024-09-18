@@ -311,6 +311,71 @@ var ongs = [
     "email": "asmade@ongasmade.org",
     "telephone": "(+226) 25 37 03 66",
     "website": "http://www.ongasmade.org/"
+  },
+  {
+    "name": "CONSEIL DANOIS POUR LES REFUGIES (DRC)",
+    "lat": 12.382097211350533,   
+    "lng": -1.4875847037931953,
+    "responsable": "Jean-Luc LAMBERT",
+    "adresse": "9GJ6+PW , Zone du Bois, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25363670",
+    "website": "http://www.drc.dk/"
+  },
+  
+  {
+    "name": "Association des Enfants et Jeunes Travailleurs de zorgho(AEJT/ZORGHO)",
+    "lat": 12.259305813566257,
+    "lng":-0.6209371153002452 ,
+    "responsable": "",
+    "adresse": "69WM+64P, Zorgo",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+
+  {
+    "name": "Association Kogl-Naba",
+    "lat": 12.535095498854101,   
+    "lng":-1.1424518467790865, 
+    "responsable": "",
+    "adresse": "9HFX+5PP, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+
+  {
+    "name": "Association pour la Solidarité et le Développement des Jeunes",
+    "lat":12.405153278920142,   
+    "lng":-1.4532958525288524 , 
+    "responsable": "Mr . OUEDRAOGO Benjamin",
+    "adresse": "CG3W+MH9, Ouagadougou",
+    "email": "",
+    "telephone": "+226 40 45 90 64",
+    "website": ""
+  },
+
+  {
+    "name": "Association ADBEF",
+    "lat": 12.388052051780894,  
+    "lng":-1.5288268562753464,
+    "responsable": "Risnata OUEDRAOGO",
+    "adresse": "01bp, Ouagadougou",
+    "email": "",
+    "telephone": "+226 75687722",
+    "website": ""
+  },
+
+  {
+    "name": "Association burkinabè pour le bien être familial (A.B.B.E.F)",
+    "lat": 12.386827026987277,   
+    "lng": -1.5098483261371805,
+    "responsable": "M. Mohmed KOUANDA",
+    "adresse": "9FHQ+RV3, Paspanga, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25303830",
+    "website": ""
   }
   
 ];

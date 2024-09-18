@@ -309,5 +309,257 @@ var centres = [
       "email": "",
       "telephone": "+226 25473566",
       "website": ""
-    }
+    },
+
+    {
+    "name": "Secrétariat Permanent Commission Nationale pour les Réfugiés (SP/CONAREF)",
+    "lat": 12.371996194487723,  
+    "lng": -1.526067000000002,
+    "responsable": "",
+    "adresse": "9FCF+PH Ouagadougou",
+    "email": "sp@conaref.bf",
+    "telephone": "+226 25330700",
+    "website": "conaref.bf"
+  },
+  {
+    "name": "Secrétariat Permanent du Conseil National multisectoriel pour la protection et la promotion des droits des personnes Handicapées (SP/COMUD/HANDICAP)",
+    "lat": 12.404505190618753,   
+    "lng": -1.4989085786563003,
+    "responsable": "Lassimane KOUNKORGO",
+    "adresse": "CG32+PF, Goughin, Ouagadougou",
+    "email": "spcomud.handicap2014@gmail.com",
+    "telephone": "+226 70731957",
+    "website": "http://WWW.spcomudhandicap.gov.bf/"
+  },
+  {
+    "name": "Centre national des personnes handicapées moteur (CNPHM)",
+    "lat": 12.36449152765951, 
+    "lng": -1.5378693479717391, 
+    "responsable": "",
+    "adresse": "9F76+PR Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Centre pour Handicapés",
+    "lat": 12.364596327461856,   
+    "lng": -1.5376225847516674,
+    "responsable": "",
+    "adresse": "9F76+PRH, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction Générale de la Famille et de l'Enfant (DGFE)",
+    "lat": 12.39878267153052, 
+    "lng": -2.0920489641961657,
+    "responsable": "",
+    "adresse": " 9F4F+28M, rue 7.06, Kamsonghin, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction Générale de la Solidarité et de l'action humanitaire (DGSAH)",
+    "lat": 12.39878267153052, 
+    "lng": -2.0920489641961657,
+    "responsable": "",
+    "adresse": " 9F4F+28M, rue 7.06, Kamsonghin, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction Générale des études et des statistiques sectorielles (DGESS)",
+    "lat": 12.360677557055807,  
+    "lng": -1.521026231752071,
+    "responsable": "",
+    "adresse": "9F5H+RJ7, Av. de la Grande Mosquée, Saint Léon, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction de la solde et de l'ordonnancement (DSO)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction des Archives et de la Documentation",
+   "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction du dévéloppement institutionnel et de l'innovation (DDII)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction des Marchés Publics (DMP)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction des Ressources Humaines (DRH)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction des Systèmes d'Information (DSI)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Fond National de Solidarité (FNS)",
+    "lat": 12.368820645640257,   
+    "lng": -1.5043297479716968,
+    "responsable": "",
+    "adresse": "9F9W+F7C, rue 14.54, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Institut National de formation en Travail Social (INFTS)",
+    "lat": 12.36971093554112, 
+    "lng": -1.5104709717356044, 
+    "responsable": "",
+    "adresse": "9F9Q+VQ5, Avenue Maurice Yameogo, Koulouba, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Maison de l'enfance Andre Dupont de Orodara (MEADO)",
+    "lat": 10.976273177695198,   
+    "lng": -4.91208227497966,
+    "responsable": "",
+    "adresse": "X3GQ+C4 Orodara",
+    "email": "",
+    "telephone": "+226 20995024",
+    "website": ""
+  },
+  {
+    "name": "Direction de l'autonomisation économique de la femme (DAEF)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction de la Protection et de la promotion des droits de la femme (DPPDF)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Direction femme, paix et sécurité (DFPS)",
+    "lat": 12.301820366784982,  
+    "lng": -1.752902912121541,
+    "responsable": "",
+    "adresse": "8F33+Q9, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Secrétariat permanent du Conseil national de lutte contre la pratique de l'excision",
+    "lat": 12.359113489364823,  
+    "lng": -1.5198313874954739,
+    "responsable": "Amade BAMOUNI",
+    "adresse": "01 BP 515 Ouagadougou 01, rue 7.06, Ouagadougou",
+    "email": "",
+    "telephone": "+226  50 30 79 15",
+    "website": ""
+  },
+  {
+    
+    "name": "MAISON DE LA FEMME BANFORA",
+    "lat": 11.115775973666647,  
+    "lng": -4.837671441794032,
+    "responsable": "",
+    "adresse": "J6VH+6GV, Banfora",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+   "name": "Direction nationale SOS villages d'enfants Burkina",
+    "lat": 12.356820838845195, 
+    "lng":  -1.5395656599444432,
+    "responsable": "Romuel SANDWIDI",
+    "adresse": "512 Avenue Ouezzin Coulibaly, 11 BP 1411 CMS 11, Goughin, Ouagadougou",
+    "email": "",
+    "telephone": "+226 07208311 ",
+    "website": ""
+  },
+  {
+    "name": "Secrétariat permanent du conseil national pour l'enfant",
+    "lat": 12.36061183746233, 
+    "lng":-1.516783834670602, 
+    "responsable": "Sylvain ZOUNGRANA.",
+    "adresse": "9F5H+MRX, Av. de la Grande Mosquée, Koulouba, Ouagadougou",
+    "email": "",
+    "telephone": "+226 70 24 96 16 ",
+    "website": ""
+  },
+  {
+    "name": "Fédération des Aveugles et Amblyopes de France (FAARF)",
+    "lat": 12.365444227215487,  
+    "lng": -1.519625060338929,
+    "responsable": "Dr Ravigsida Dorcas Tiendrébéogo",
+    "adresse": "9F8J+44G, Av. Loudun, Koulouba, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25311593",
+    "website": ""
+  },
+  {
+    "name": "le Fonds national de solidarité et de résilience sociale (FNS-RS)",
+    "lat": 12.368747286966654,  
+    "lng": -1.5043297468461982,
+    "responsable": "𝑴𝒐𝒏𝒔𝒊𝒆𝒖𝒓 𝑺𝒂𝒎𝒊 𝑵𝒊𝒄𝒐𝒍𝒂𝒔 𝑲𝑨𝑴𝑩𝑶𝑼",
+    "adresse": "9F9W+F7C, rue 14.54, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  }
   ];
