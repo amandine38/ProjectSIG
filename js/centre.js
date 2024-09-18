@@ -651,5 +651,236 @@ var centres = [
   "email": "",
   "telephone": "+226 ",
   "website": ""
-  }
+  },
+{
+  "name": "Maison de la Femme Diébougou",
+  "lat": 10.978172069203936, 
+  "lng": -3.2439530771374043,
+  "responsable": "",
+  "adresse": "XQ93+FF3, Diébougou",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme Ziniaré",
+  "lat": 12.58879553145804, 
+  "lng":  -1.29508887102417,
+  "responsable": "",
+  "adresse": "HPQ3+CW2 Ziniaré 1, Ziniaré",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Service Famille et enfant",
+  "lat": 11.186554237583215,  
+  "lng":  -4.292664906218629,
+  "responsable": "",
+  "adresse": "5PC6+X64, Koko, Bobo-Dioulasso",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "MAISON DE LA FEMME GOUMSI",
+  "lat": 12.179900224599557,
+  "lng": -1.5761126114393011,
+  "responsable": "",
+  "adresse": "",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme, arrondissement 9",
+  "lat": 12.561928451119632,  
+  "lng": -1.5504822635330795,
+  "responsable": "",
+  "adresse": "CCCG+XG, Ouagadougou",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme de Diapaga",
+  "lat": 12.18288853314086,
+  "lng": 1.8303375788797418,
+  "responsable": "",
+  "adresse": "3QFP+4H6, Jamilou, Diapaga",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme de dassoui",
+  "lat": 12.376341107659552, 
+  "lng": -1.726589678930358 ,
+  "responsable": "",
+  "adresse": "WGWP+7J, Dassouri",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+  },
+{
+  "name": "Service action Sociale de tampouy",
+  "lat": 12.398879264322796,
+  "lng":  -1.5742060521485577 ,
+  "responsable": "",
+  "adresse": "9CXG+78C, Secteur 16, Tampouy, Ouagadougou",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme de Diapaga",
+  "lat": 12.195806109839005,  
+  "lng": 1.8227197827859882,
+  "responsable": "",
+  "adresse": "3QFP+4H6, Jamilou, Diapaga",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison Communautaire de Manga",
+  "lat": 11.682591624545754, 
+  "lng": -1.0802117367839097,
+  "responsable": "",
+  "adresse": "MWJ9+WRF, Manga",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme de Komtoèga",
+  "lat": 11.84938625555013,  
+  "lng": -0.6532717465807123,
+  "responsable": "",
+  "adresse": "R8XW+JGV, Komboéga",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+  },
+{
+  "name": "ACTION SOCIALE DE DORI",
+  "lat": 14.104165456257345,  
+  "lng": -0.14864049586431394,
+  "responsable": "",
+  "adresse": "4V22+26J, Yakouta",
+  "email": "",
+  "telephone": "+226 70524974",
+  "website": ""
+},
+{
+  "name": "Action Sociale",
+  "lat": 12.132566382348603,  
+  "lng": 0.36575907782793193,
+  "responsable": "",
+  "adresse": "3975+CW2, Fada-Ngourma",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "OCADES burkina",
+  "lat": 12.416396924729241,  
+  "lng": -1.5056634531065716,
+  "responsable": "",
+  "adresse": "9G55+F6P, Dagnoen, Ouagadougou",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme Koudougou",
+  "lat": 12.24465468547337,  
+  "lng": -2.397893790302431,
+  "responsable": "",
+  "adresse": "6JV2+PRG, Koudougou",
+  "email": "",
+  "telephone": "+226 6JV2+PRG, Koudougou",
+  "website": ""
+},
+{
+  "name": "Maison de la femme de dassoui",
+  "lat": 12.42200289800363,  
+  "lng": -1.7941663465735682,
+  "responsable": "",
+  "adresse": "WGWP+7J, Dassouri",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la Femme Diébougou",
+  "lat": 11.126179583807122,   
+  "lng": -3.255433014646632,
+  "responsable": "",
+  "adresse": "XQ93+FF3, Diébougou",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme / Sabaribougou",
+  "lat": 11.271670864559885,    
+  "lng": -4.343079458037709,
+  "responsable": "",
+  "adresse": "4MM9+QWH, rue 20.155, Lafiabougou, Bobo-Dioulasso",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+}
+/*
+{
+  "name": "",
+  "lat": ,   
+  "lng": ,
+  "responsable": "",
+  "adresse": "",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "",
+  "lat": ,   
+  "lng": ,
+  "responsable": "",
+  "adresse": "",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "",
+  "lat": ,   
+  "lng": ,
+  "responsable": "",
+  "adresse": "",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "",
+  "lat": ,   
+  "lng": ,
+  "responsable": "",
+  "adresse": "",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "",
+  "lat": ,   
+  "lng": ,
+  "responsable": "",
+  "adresse": "",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+}*/
   ];

@@ -590,7 +590,8 @@ var ongs = [
     "email": "",
     "telephone": "+226 25357280/45",
     "website": "https://action-education.org/"
-  }{
+  },
+  {
     "name": "ONG AGED",
     "lat": 12.375297688624348,   
     "lng": -1.4947303786173813,
@@ -609,6 +610,156 @@ var ongs = [
     "email": "",
     "telephone": "",
     "website": "https://www.buildon.org/notre-travail/buildon-dans-le-monde?lang=fr"
+  },
+  {
+    "name": "ONG CISV - Comunita Impegno Servizio Volontariato",
+    "lat": 12.370938159913111,    
+    "lng": -1.4876064317422661,
+    "responsable": "",
+    "adresse": "9GC7+54Q, Wemtenga, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25369145",
+    "website": "http://www.cisvto.org/"
+  },
+  {
+    "name": "Maison des associations",
+    "lat": 11.196624073783475,   
+    "lng": -4.301627363609394, 
+    "responsable": "",
+    "adresse": "5MVX+4G4, rue 2.14, Bobo-Dioulasso",
+    "email": "",
+    "telephone": "",
+    "website": ""
+  },
+  {
+    "name": "ASSOCIATION BURKINA CŒURS UNIS",
+    "lat": 11.208613789174635,    
+    "lng": -4.313092616421575,
+    "responsable": "",
+    "adresse": "6M4Q+7C, secteur 10, Yegueré, Bobo-Dioulasso",
+    "email": "coeursunisa@gmail.com",
+    "telephone": "+226 77011566",
+    "website": ""
+  },
+  {
+    "name": "Association NABIRAOGO",
+    "lat": 11.204740860057996,   
+    "lng": -4.320474055352418,
+    "responsable": "",
+    "adresse": "6M3H+HP7, rue 22.122, Yegueré, Bobo-Dioulasso",
+    "email": "",
+    "telephone": "",
+    "website": ""
+  },
+  {
+    "name": "Association sportive des fonctionnaires de Bobo Dioulasso ASFB",
+    "lat": 11.199015565505322,   
+    "lng": -4.302621272822008, 
+    "responsable": "",
+    "adresse": "5MRW+XG6, Bobo-Dioulasso",
+    "email": "",
+    "telephone": "",
+    "website": ""
+  },
+  {
+    "name": "Association humanitaire compassion Amour solidarité",
+    "lat": 11.17375556161384,   
+    "lng": -4.246659666043994, 
+    "responsable": "NIANVA Christelle",
+    "adresse": "5Q92+3C, Bobo-Dioulasso",
+    "email": "acompassionamoursolidarite@gmail.com",
+    "telephone": "+226 74333838",
+    "website": ""
+  },
+  {
+    "name": "Association Seconde Chance",
+    "lat": 11.197331633783516,    
+    "lng": -4.27206554887573,
+    "responsable": "",
+    "adresse": "5PJG+JJH, rue 15.26, Ouezzin Ville, Bobo-Dioulasso",
+    "email": "",
+    "telephone": "+226 76272800",
+    "website": ""
+  },
+  {
+    "name": "Association Tié",
+    "lat": 11.204067301873904,    
+    "lng": -4.253526120863382,
+    "responsable": "",
+    "adresse": "5PJX+PM8, Bobo Dioulasso 01, 01BP 790, Bobo-Dioulasso",
+    "email": "associationtie3@gmail.com",
+    "telephone": "+226 76671476",
+    "website": ""
+  },
+  {
+    "name": "Médecins du Monde",
+    "lat": 12.33073215592952,  
+    "lng":  -1.5048901236700583,
+    "responsable": "Joël Weiler",
+    "adresse": "Secteur 52 (Ex 5), Patte d'Oie, 06 Ouagadougou 10387, Ouagadougou",
+    "email": "introuvable",
+    "telephone": "25 37 50 06",
+    "website": "https://www.medecinsdumonde.org/pays/afrique/burkina-faso/"  
+  },
+  {
+    "name": "La Croix-Rouge Burkinabè",
+    "lat": 12.383326566222449,  
+    "lng":  -1.4872742000000003,
+    "responsable": "Dénis BAKYONO",
+    "adresse": "Zone du Bois, Ouagadougou",
+    "email": "secretariat.crbf@croix-rouge.bf",
+    "telephone": "25 36 31 21",
+    "website": "https://croix-rouge.bf/croix_rouge_burkina/organisation"  
+  },
+  {
+    "name": "Association Sauvons l'Environnement, l'Eau Potable et l'Assainissement pour Tous (SEEPAT)",
+    "lat": 11.166188538047775,  
+    "lng":  -4.304946703843376,
+    "responsable": "",
+    "adresse": "5M7V+XW Bobo-Dioulasso",
+    "email": "",
+    "telephone": "+226 70554404",
+    "website": ""
+  },
+  {
+    "name": "ASSOCIATION PAOLINE",
+    "lat": 11.144891239624041,  
+    "lng": -4.325469793414079,
+    "responsable": "",
+    "adresse": "4MVF+7WV, rue 20.147, Lafiabougou, Bobo-Dioulasso",
+    "email": "",
+    "telephone": "+226 70230379",
+    "website": "https://paolinebf.onlc.fr/"
+  },
+  {
+    "name": "Association Arts au-delà du Handicap",
+    "lat": 11.163038201049954,  
+    "lng": -4.277222854784575,
+    "responsable": "",
+    "adresse": "5P6F+P7G, Sarfalao, Bobo-Dioulasso",
+    "email": "",
+    "telephone": "+226 76982027",
+    "website": ""
+  },
+  {
+    "name": "oxfam Burkina Faso",
+    "lat": 12.389754541559292,  
+    "lng":  -1.4843880588155347,
+    "responsable": "Karim Séré",
+    "adresse": "Zone du Bois 286 Rue baor Ganga, secteur 22, 06 BP9518 Ouagadougou 06, Ouagadougou",
+    "email": "Info.burkina@oxfam.org",
+    "telephone": "25 36 20 58",
+    "website": "https://burkinafaso.oxfam.org/"  
+  },
+  {
+    "name": "ACIRJEB",
+    "lat": 11.185428708852632, 
+    "lng": -4.327266009302623, 
+    "responsable": "",
+    "adresse": "5MMC+HXQ, Unnamed Road, Sonsoribougou, Bobo-Dioulasso",
+    "email": "",
+    "telephone": "+226 74355388",
+    "website": ""
   }
   
 ];
