@@ -561,5 +561,95 @@ var centres = [
     "email": "",
     "telephone": "+226 ",
     "website": ""
-  }
+  },
+  {
+    "name": " Secretariat Permanent du comité de lutte contre la drogue (SP/CNLD)",
+    "lat": 12.358707529615888, 
+    "lng": -1.5103902336915351,  
+    "responsable": " l'Inspecteur Général de Police Emanoël KABORE",
+    "adresse": "9F4M+C8F, Avenue Kwame Nkrumah, Ouagadougou",
+    "email": "",
+    "telephone": "+22625374092 ",
+    "website": "http://www.onedd-burkina.info/"
+  },
+  {
+    "name": "Maison de la femme de Houndé",
+    "lat": 11.481759757286769,  
+    "lng": -3.517265246873749, 
+    "responsable": "",
+    "adresse": "FFJM+J3G, Unnamed Road, Houndé",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+ {
+    "name": "Maison de la femme de Tenkodogo",
+    "lat": 11.800896538290022,  
+    "lng": -0.37644070269110524,
+    "responsable": "",
+    "adresse": "RJ2F+795, N16, Tenkodogo",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "Projet Femmes-Jeunes Entreprenants et Citoyenneté (ProFeJeC)",
+    "lat": 12.372455783361122,   
+    "lng": -1.512127795084364 ,
+    "responsable": "Moumine Sissao",
+    "adresse": "9FCQ+32G, Avenue Pr. Joseph Ki-Zerbo, Koulouba, Ouagadougou",
+    "email": "",
+    "telephone": "+226 ",
+    "website": ""
+  },
+  {
+    "name": "INEFPRO",
+    "lat": 12.32592287083791,   
+    "lng": -1.4971537603535297,
+    "responsable": " Somè SAGNON",
+    "adresse": "12 BP 532 12, Ouagadougou",
+    "email": "",
+    "telephone": "+226 71323352",
+    "website": ""
+    },
+  {
+    "name": "Maison de la femme, de Gourcy",
+    "lat": 13.18618070080397,  
+    "lng": -2.3574109747153904, 
+    "responsable": "",
+    "adresse": "5JPV+C2P, Gourcy",
+    "email": "",
+    "telephone": "+226 74212889",
+    "website": ""
+  },
+{
+  "name": "Maisons de la Femme Dedougou",
+  "lat": 12.468729862333918, 
+  "lng": -3.4646570867598023,
+  "responsable": "",
+  "adresse": "FGCP+2M3, Unnamed Road, Dedougou",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la Femme de Tougan",
+  "lat": 13.067672590302381, 
+  "lng": -3.0720716340899252,
+  "responsable": "",
+  "adresse": "3W8J+QP Tougan",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+},
+{
+  "name": "Maison de la femme de Kaya",
+  "lat": 13.118438930797577, 
+  "lng": -1.0957384638563132,
+  "responsable": "",
+  "adresse": "3VPX+6X8, Kaya",
+  "email": "",
+  "telephone": "+226 ",
+  "website": ""
+  }
   ];

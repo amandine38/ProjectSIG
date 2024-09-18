@@ -474,6 +474,141 @@ var ongs = [
     "email": "",
     "telephone": "+226 77772880",
     "website": ""
+  },
+
+  {
+    "name": "Association CESAR",
+    "lat": 12.375281105597201,   
+    "lng": -1.5206916924890286,
+    "responsable": "",
+    "adresse": "9FCJ+H4, 12 BP 112 Ouagadougou 112, Ouagadougou",
+    "email": "",
+    "telephone": "+226 70233737",
+    "website": ""
+  },
+
+  {
+    "name": "CAPSSR",
+    "lat": 12.375336540264309,   
+    "lng": -1.515651047971595,
+    "responsable": "Awa YANOGO",
+    "adresse": "9FGM+3Q7 Lycée Nelson Mandela, Paspanga, Ouagadougou",
+    "email": "capssr.bf@gmail.com",
+    "telephone": "+226 52212465",
+    "website": "http://www.capssr-bf.org/"
+  },
+
+  {
+    "name": "ONG APIL (Action for the Promotion of Local Initiatives)",
+    "lat": 12.577636748274353,  
+    "lng":  -1.3098765099777931,
+    "responsable": "Inconnu",
+    "adresse": "HMGR+X3R, Ziniaré",
+    "email": "apil@fasonet.bf",
+    "telephone": "25 30 99 40",
+    "website": "https://www.apilaction.net/"
+  },
+ 
+  {
+	 "name": "ALIMA, The Alliance for International Medical Action",
+    "lat": 12.328153902733689,  
+    "lng":  -1.4993435144395049,
+    "responsable": "Le Docteur Moumouni Kinda",
+    "adresse": "8GF2+373, Unnamed Road, Patte d´oie, Ouagadougou",
+    "email": "introuvable",
+    "telephone": "25 30 99 40",
+    "website": "https://alima.ngo/"  
+  },
+
+  {
+    "name": "Association pour la Promotion de la Santé au Burkina ( APS-BURKINA )",
+    "lat": 12.342814605028332,   
+    "lng": -1.5064901498216683,
+    "responsable": "",
+    "adresse": "8FVV+2CW, Ave des Arts, Kalgondin, Ouagadougou",
+    "email": "apsburkinafaso@gmail.com",
+    "telephone": "+226 25461414",
+    "website": "https://www.apexb.bf/"
+  },
+
+  {
+    "name": "Tiko Burkina Faso ONG",
+    "lat": 12.34072557293671,   
+    "lng": -1.5145405541053558,
+    "responsable": "",
+    "adresse": "8FQP+M8X, rue 15.22, Ouagadougou",
+    "email": "",
+    "telephone": "+226 73386262",
+    "website": "http://www.tiko.org/"
+  },
+  {
+    "name": "ONG PEVA",
+    "lat": 12.350116321718026,   
+    "lng": -1.5265568500392848,
+    "responsable": "",
+    "adresse": "8FXF+M7P, Ouagadougou",
+    "email": "",
+    "telephone": "",
+    "website": ""
+  },
+  {
+    "name": "ONG ALIMA",
+    "lat": 12.324290952421679,   
+    "lng": -1.4988335387060054,
+    "responsable": "Marie Loro",
+    "adresse": "8GF2+373, Unnamed Road, Patte d´oie, Ouagadougou",
+    "email": "",
+    "telephone": "",
+    "website": "https://alima.ngo/"
+  },
+  {
+    "name": "ONG HELP",
+    "lat": 12.31892432258798,   
+    "lng": -1.522951961259106,
+    "responsable": "",
+    "adresse": "8F8H+V34, Unnamed Road, Ouaga 2000, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25417812",
+    "website": "https://helpbf.org/"
+  },
+  {
+    "name": "Plan Burkina",
+    "lat": 12.339467857792568,   
+    "lng": -1.501665951319003,
+    "responsable": "",
+    "adresse": "8FPX+PF, Zone d´Activités Diverses, 397 Rue 15, Zone d´Activités Diverses, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25378733",
+    "website": "https://plan-international.org/burkina-faso"
+  },
+  {
+    "name": "ONG Action Education - Burkina",
+    "lat": 12.317666502839696,   
+    "lng": -1.509476543676057,
+    "responsable": "",
+    "adresse": "8F8R+73P, Ouaga 2000, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25357280/45",
+    "website": "https://action-education.org/"
+  }{
+    "name": "ONG AGED",
+    "lat": 12.375297688624348,   
+    "lng": -1.4947303786173813,
+    "responsable": "",
+    "adresse": "9GF3+9XV, 1200 Logements, Ouagadougou",
+    "email": "agedori@fasonet.bf",
+    "telephone": "+226 25368837",
+    "website": "http://www.agedburkina.org/"
+  },
+  {
+    "name": "ONG buildOn - Bureau du Burkina",
+    "lat": 12.38644769048873,  
+    "lng": -1.4837440509063604, 
+    "responsable": "",
+    "adresse": "9GM8+Q9J, Zone du Bois, Ouagadougou",
+    "email": "",
+    "telephone": "",
+    "website": "https://www.buildon.org/notre-travail/buildon-dans-le-monde?lang=fr"
   }
   
 ];
