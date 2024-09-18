@@ -376,6 +376,104 @@ var ongs = [
     "email": "",
     "telephone": "+226 25303830",
     "website": ""
+  },
+  {
+    "name": "Light for the World",
+    "lat": 12.251868910587204,   
+    "lng": -1.5544410006791847,
+    "responsable": "Etienne Bagré",
+    "adresse": "",
+    "email": "",
+    "telephone": "+226 25363456",
+    "website": "http://www.light-for-the-world.org/"
+  },
+
+  {
+    "name": "ONG INTERSOS",
+    "lat": 12.362347484999894,   
+    "lng": -1.5392143095691897,
+    "responsable": "",
+    "adresse": "9F56+HM6, rue Kon Deng Wondbo, Petit Paris, Ouagadougou",
+    "email": "",
+    "telephone": "",
+    "website": ""
+  },
+
+  {
+    "name": "ONG GASCODE",
+    "lat": 12.366539478703768,   
+    "lng": -1.5308029024154395,
+    "responsable": "",
+    "adresse": "9F79+9M, 03 BP 7128, Ouagadougou",
+    "email": "",
+    "telephone": "+226 70602023",
+    "website": "http://www.gascode.bf/"
+  },
+
+  {
+    "name": "NORWEGIAN REFUGEE COUNCIL (NRC)",
+    "lat": 12.313857420318374,   
+    "lng": -1.5186966191369526,
+    "responsable": "",
+    "adresse": "8F7J+3H3, rue Bitto, Ouaga 2000, Ouagadougou",
+    "email": "",
+    "telephone": "",
+    "website": "http://www.nrc.no/"
+  },
+
+  {
+    "name": "Organisation Néerlandaise de Développement SNV by Yizom",
+    "lat": 12.312543875469752,   
+    "lng": -1.5244033191369768,
+    "responsable": "",
+    "adresse": "8F6G+W6, Ouaga 2000, Ouagadougou",
+    "email": "",
+    "telephone": "+226 25409263",
+    "website": "https://www.snv.org/"
+  },
+
+  {
+    "name": "SNV Rowca",
+    "lat": 12.349679235445189,   
+    "lng": -1.5527507614650236,
+    "responsable": "",
+    "adresse": "8CXW+RV8, rue 17.71, Pissy, Ouagadougou",
+    "email": "",
+    "telephone": "",
+    "website": ""
+  },
+
+  {
+    "name": "NexGen",
+    "lat": 12.3714598632024,   
+    "lng": -1.492302646122048,
+    "responsable": "",
+    "adresse": "9GC5+P5V, Zogona, Ouagadougou",
+    "email": "",
+    "telephone": "+226 51470003",
+    "website": ""
+  },
+
+  {
+    "name": "Association Nouvelle Génération Engagée",
+    "lat": 12.39503849938121,  
+    "lng": -1.5085038651634326, 
+    "responsable": "",
+    "adresse": "9FVR+WJ, Ouagadougou",
+    "email": "",
+    "telephone": "+226 74866606",
+    "website": ""
+  },
+
+  {
+    "name": "Alternatives Générations",
+    "lat": 12.298507940475602,   
+    "lng": -1.5643785940007247,
+    "responsable": "",
+    "adresse": "9FVP+GP, Quartier Bonheur Ville, Sandogo, Ouagadougou",
+    "email": "",
+    "telephone": "+226 77772880",
+    "website": ""
   }
   
 ];
